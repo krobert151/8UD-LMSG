@@ -65,9 +65,12 @@ do{
 }while(!salir);
 
 alert(palabras.join (' '));
+/*
+Aleatorio 
 
-
-
+let max, min;
+let numeroaleatorio = Math.floor(Math.random()* (max - min + 1)) + min;
+*/
 
 
 

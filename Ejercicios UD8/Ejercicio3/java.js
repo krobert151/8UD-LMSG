@@ -3,3 +3,6 @@ let meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','
 for (let mes of meses) {
     alert(mes);
 }
+
+
+
