@@ -17,7 +17,7 @@ do {
     num = prompt("Ingrese un número");
     array.shift();
     array.push(num);
-} while (num > 0);
+} while (num >= 0);
 
 
 

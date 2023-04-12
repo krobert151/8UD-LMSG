@@ -1,16 +1,8 @@
-let palabra = prompt("Palabra");
-palabra = palabra.split(" ").join("");
-let verda =true;
 
-for (let i = 0; i < palabra.length; i++) {
-    if(palabra.charAt(i)===palabra.charAt(palabra.length-i-1)){
-    }else{
-        verda = false;
-    }
+
+function delreves(str) {
+    (str=str.split('').reverse().join(''))?alert("es Palindromo"):alert("No es palindromo");
 }
 
-if(verda){
-    alert("Palabra palindroma");
-}else{
-    alert("Palabra no palindroma");
-}
+delreves(prompt("Ingrese una palabra"));
+

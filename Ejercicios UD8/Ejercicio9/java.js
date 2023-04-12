@@ -1,10 +1,18 @@
-let cadena = prompt("cadena");
-if (cadena === cadena.toUpperCase){
-    alert("cadena es mayuscula");
-}else{
-    if(cadena === cadena.toLowerCase){
-        alert("cadena es minuscula");
+
+
+function mirarMayusculas(str) {
+    let enMius = str.toLowerCase()
+    let enMays = str.toUpperCase()
+
+    if(str===enMius){
+        alert("La cadena es minus")
+    }else if(str===enMays){
+        alert("La cadena es mayus")
     }else{
-        alert("cadena no es mayuscula o minuscula");
+        alert("no es ni mayus ni minus")
     }
+
+
 }
+
+mirarMayusculas(prompt("Ingrese una cadena"));
